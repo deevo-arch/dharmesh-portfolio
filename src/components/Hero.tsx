@@ -41,10 +41,19 @@ const Hero = () => {
 
           {/* Action buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <Button size="lg" className="glow stroke-hover group">
+            <Button 
+              size="lg" 
+              className="glow stroke-hover group"
+              onClick={() => window.open('https://www.linkedin.com/in/dharmeshgour', '_blank')}
+            >
               <span className="relative z-10">Let's Connect</span>
             </Button>
-            <Button variant="outline" size="lg" className="glass-strong stroke-hover">
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="glass-strong stroke-hover"
+              onClick={() => alert('No Work')}
+            >
               View My Work
             </Button>
           </div>
@@ -52,9 +61,9 @@ const Hero = () => {
           {/* Social links */}
           <div className="flex justify-center gap-6">
             {[
-              { icon: Github, href: "#", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
-              { icon: Mail, href: "#", label: "Email" }
+              { icon: Github, href: "https://github.com/DHARMESHGOUR021", label: "GitHub" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/dharmeshgour", label: "LinkedIn" },
+              { icon: Mail, href: "mailto:dharmeshgour021@gmail.com", label: "Email" }
             ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}

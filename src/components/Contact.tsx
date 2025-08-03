@@ -1,21 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
     {
       icon: Mail,
       label: "Email",
-      value: "dharmesh.gour@email.com",
-      href: "mailto:dharmesh.gour@email.com"
-    },
-    {
-      icon: Phone,
-      label: "Phone",
-      value: "+91 XXXXX XXXXX",
-      href: "tel:+91XXXXXXXXX"
+      value: "dharmeshgour021@gmail.com",
+      href: "mailto:dharmeshgour021@gmail.com"
     },
     {
       icon: MapPin,
@@ -29,20 +23,20 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com",
-      username: "@dharmeshgour"
+      href: "https://github.com/DHARMESHGOUR021",
+      username: "@DHARMESHGOUR021"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/dharmeshgour",
       username: "Dharmesh Gour"
     },
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:dharmesh.gour@email.com",
-      username: "dharmesh.gour@email.com"
+      href: "mailto:dharmeshgour021@gmail.com",
+      username: "dharmeshgour021@gmail.com"
     }
   ];
 
@@ -187,7 +181,10 @@ const Contact = () => {
                 Whether it's a startup idea, collaboration opportunity, or just a tech discussion, 
                 I'm always excited to connect with fellow innovators.
               </p>
-              <Button className="glow stroke-hover">
+              <Button 
+                className="glow stroke-hover"
+                onClick={() => window.location.href = 'mailto:dharmeshgour021@gmail.com'}
+              >
                 Schedule a Call
               </Button>
             </div>
