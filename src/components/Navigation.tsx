@@ -39,7 +39,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-2xl font-bold gradient-text">
-            DSG
+            Gopalpur Bihari
           </div>
 
           {/* Desktop Navigation */}
