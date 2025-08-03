@@ -92,17 +92,17 @@ const Experience = () => {
                 </h3>
                 
                 <div className="text-xl text-muted-foreground mb-4">
-                  Student-Led Tech Club
+                  Student-Led Club - VORN(Value Optimised Resource Network).
                 </div>
                 
                 <div className="flex flex-wrap gap-4 text-sm text-muted-foreground mb-4">
                   <div className="flex items-center gap-2">
                     <Calendar className="w-4 h-4" />
-                    <span>2023 - Present</span>
+                    <span>2025 - Present</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="w-4 h-4" />
-                    <span>University Campus</span>
+                    <span>University Campus, XeonWeb Slutions.</span>
                   </div>
                 </div>
                 
